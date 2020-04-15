@@ -7,7 +7,7 @@ const init = async () => {
     }
 
     try {
-        const registration = await navigator.serviceWorker.register('/sw.js')
+        const registration = await navigator.serviceWorker.register('./sw.js')
         registration.addEventListener('updatefound', () => {
             console.log('A new service worker is being installed:',
                 registration.installing);
