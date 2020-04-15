@@ -1,0 +1,24 @@
+{
+  "name": "overex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -c-1 ./dist",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jravas/overex-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jravas/overex-js/issues"
+  },
+  "homepage": "https://github.com/jravas/overex-js#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
